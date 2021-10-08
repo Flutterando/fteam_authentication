@@ -1,0 +1,12 @@
+include: package:effective_dart/analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    one_member_abstracts: false
+    lines_longer_than_80_chars: false
+    type_annotate_public_apis: false
+    avoid_catches_without_on_clauses: false
+    prefer_single_quotes: true
+    avoid_print: true
+    

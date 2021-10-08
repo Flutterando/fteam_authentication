@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "fteam_authentication_core"
+		},
+		{
+			"path": "fteam_authentication_firebase"
+		}
+	],
+	"settings": {
+		"dart.flutterSdkPath": "/home/maxweel/fvm/versions/stable"
+	}
+}
