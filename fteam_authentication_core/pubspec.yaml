@@ -1,6 +1,7 @@
 name: fteam_authentication_core
 description: FTeam auth Core
-version: 1.0.0+1
+repository: https://github.com/Flutterando/fteam_authentication
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
