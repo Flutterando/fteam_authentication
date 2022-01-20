@@ -46,6 +46,7 @@ main(){
     result.fold((l) => print(l.toString()), (r) => r?.email);
   }
 }
+```
 
 # Dica
 
@@ -53,4 +54,4 @@ Se tiver error na versão do Kotlin vai em:
 android/build.gradle 
 na seção buildscript na chave ext.kotlin_version coloque o valor 1.6.10
 
-```
+
