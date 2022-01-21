@@ -5,11 +5,10 @@ Fteam' Datasource Authentication using Firebase
 ## Install
 
 Add in your pubspec.yaml
+
 ```yaml
-dependencies:    
+dependencies:
   fteam_authentication_firebase:
-
-
 ```
 
 ## Usage
@@ -33,13 +32,13 @@ main(){
 			appleRedirectUri: Uri.parse('https://exemplo.com'),
 		),
   );
-  
+
    runApp(
    	...
     ),
   );
   ...
-  
+
   //Utilize [Dartz](https://pub.dev/packages/dartz)
   Future signInGoogle() async {
     final result = await FTeamAuth.login(ProviderLogin.google);
@@ -48,11 +47,10 @@ main(){
 }
 ```
 
-# Dica
+## Dica ⚠
 
 Se tiver error na versão do Kotlin vai em:
-android/build.gradle 
-na seção buildscript na chave ext.kotlin_version coloque o valor 1.6.10
-android/app/build.gradle 
-na seção dependencies implementation 'com.google.firebase:firebase-auth:19.2.0'
-
+`android/build.gradle`
+na seção buildscript na chave ext.kotlin_version coloque o valor `1.6.10`
+`android/app/build.gradle`
+na seção dependencies implementation `'com.google.firebase:firebase-auth:19.2.0'`
