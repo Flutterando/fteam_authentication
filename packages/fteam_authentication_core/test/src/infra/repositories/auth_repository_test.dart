@@ -2,8 +2,6 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fteam_authentication_core/fteam_authentication_core.dart';
-import 'package:fteam_authentication_core/src/domain/models/email_credencials.dart';
-import 'package:fteam_authentication_core/src/infra/datasource/auth_datasource.dart';
 import 'package:fteam_authentication_core/src/infra/repositories/auth_repository.dart';
 import 'package:mocktail/mocktail.dart';
 

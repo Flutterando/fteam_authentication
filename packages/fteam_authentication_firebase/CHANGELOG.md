@@ -1,3 +1,7 @@
+## [1.0.0+6]
+
+- Update flutter_facebook_auth Version
+
 ## [1.0.0+5]
 
 - Update README

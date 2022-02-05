@@ -1,9 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/widgets.dart';
 import '../../fteam_authentication_core.dart';
-import '../domain/entities/logged_user.dart';
-import '../domain/models/email_credencials.dart';
-import '../infra/datasource/auth_datasource.dart';
 
 abstract class FteamAuthetication {
   Future<Either<AuthFailure, Unit>> deleteAccount();

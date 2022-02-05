@@ -9,4 +9,4 @@ linter:
     avoid_catches_without_on_clauses: false
     prefer_single_quotes: true
     avoid_print: true
-    
+    unnecessary_lambdas: false
