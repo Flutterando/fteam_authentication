@@ -1,3 +1,8 @@
+## [1.0.1]
+
+- Add example
+- Add firebaseOptions parameter
+
 ## [1.0.0+6]
 
 - Update flutter_facebook_auth Version
