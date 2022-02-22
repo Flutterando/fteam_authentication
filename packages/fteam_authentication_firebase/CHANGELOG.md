@@ -1,3 +1,7 @@
+## [1.0.1+1]
+
+- Fix Example
+
 ## [1.0.1]
 
 - Add example

@@ -10,18 +10,11 @@ void main() {
       appleRedirectUri: Uri.parse('https://exemplo.com'),
     ),
     firebaseOptions: const FirebaseOption(
-      appId: '1:129988387330:android:7d91933792f199ca67fd1b',
-      apiKey: 'AIzaSyBb4GGgu92h43QoOAl9xOksbykMwR_kbxg',
-      projectId: 'gymsy-9529b',
-      messagingSenderId: '129988387330',
+      appId: 'your appId',
+      apiKey: 'you apiKey',
+      projectId: 'your projectId',
+      messagingSenderId: 'your messagingSenderId',
     ),
-
-    //firebaseOptions: const FirebaseOption(
-    //  appId: 'your appId',
-    //  apiKey: 'you apiKey',
-    //  projectId: 'your projectId',
-    //  messagingSenderId: 'your messagingSenderId',
-    //),
   );
 
   runApp(const MyApp());
