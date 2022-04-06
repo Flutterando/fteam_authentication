@@ -1,7 +1,7 @@
 name: fteam_authentication_firebase
 description: FTeam's Datasource Authentication, this package - This package was developed to be a facilitator to implement the different forms of login that we have (facebook, apple, google, etc.)
 repository: https://github.com/Flutterando/fteam_authentication
-version: 1.0.1+1
+version: 1.0.1+2
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

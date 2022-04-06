@@ -1,3 +1,9 @@
+## [1.0.1+2]
+
+- flutter_facebook_auth
+- firebase_core
+- firebase_auth
+
 ## [1.0.1+1]
 
 - Fix Example
